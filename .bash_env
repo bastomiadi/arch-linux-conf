@@ -1,0 +1,9 @@
+export PATH=$PATH:/mnt/data2/Golang/go/bin
+
+export PATH=$PATH:/mnt/data2/Android/flutter/bin
+
+export CHROME_EXECUTABLE="/opt/google/chrome/chrome"
+
+export ANDROID_HOME=/mnt/data2/Android/Sdk
+
+export PATH=$PATH:$ANDROID_HOME/tools
