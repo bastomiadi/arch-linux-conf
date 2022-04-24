@@ -19,3 +19,9 @@ alias history-pacman="grep -iE 'removed|installed|upgraded' /var/log/pacman.log"
 alias fix-error-update="sudo rm -R /var/lib/pacman/sync && sudo -E pacman -Syu"
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias generate-module="sudo mkinitcpio -p linux"
+
+# new project
+alias yii-advanced='composer create-project --prefer-dist yiisoft/yii2-app-advanced'
+alias yii-basic='composer create-project --prefer-dist yiisoft/yii2-app-basic'
+alias laravel='composer create-project laravel/laravel'
+alias ci4='composer create-project codeigniter4/appstarter'
